@@ -7,6 +7,10 @@ Through two different finite difference schemes, solitary waves are simulated. T
 2. Burgers equation: a shock wave equation
 3. Inviscid Burgers' equation: a special case of the Burgers equation
 
+<p align="center">
+<img src="./figures/Burgers/BuZaGac3.png" width="750" height="450" />
+</p>
+
 ## Discretization
 
 Two different finite different schemes are used. The firs one uses a second-order central difference, while the second one is the leap-frog method developed by Zabusky and Kruskal in 1965.
@@ -18,3 +22,7 @@ Both a gaussian and a hyperbolic secant are used as initial conditions, with var
 ## Noether's theorem
 
 By applying Noether's theorem to the equation's Lagrangians at least two conserved quantities are found. The simulations confirm these calculations.
+
+<p align="center">
+<img src="./figures/KdV/sKdVcoshzabuc8.png" width="750" height="450" />
+</p>
